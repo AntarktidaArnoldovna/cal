@@ -1,0 +1,14 @@
+while True:
+    a = float(input("Введите число а: "))
+    b = float(input("Введите число b: "))
+    x = input("Введите операцию +,-,/,*: ")
+    if b == 0.0 and x == "/":
+        break
+    elif x == "+":
+        print(a + b)
+    elif x == "-":
+        print(a - b)
+    elif x == "/":
+        print(a / b)
+    elif x == "*":
+        print(a * b)
